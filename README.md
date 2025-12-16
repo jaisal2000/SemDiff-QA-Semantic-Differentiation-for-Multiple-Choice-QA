@@ -47,19 +47,6 @@ Instead of generating text, we extract the latent semantic vector from the Encod
 3.  **Score:** Project the pooled vector to a scalar logit via a Linear Layer.
 4.  **Rank:** Apply Cross-Entropy Loss over the 5 choices.
 
-## 📂 Project Structure
-
-```
-├── data/
-│   ├── csqa/              # CommonsenseQA Dataset
-│   └── dummy/             # Unit test data
-├── model/
-│   └── dcqa.py            # T5ForConditionalGeneration wrapper
-├── main.ipynb             # Jupyter Notebook containing full pipeline
-├── utils.py               # Data loading and tokenization helpers
-└── README.md
-```
-
 ##  Installation & Usage
 
 ### Prerequisites
